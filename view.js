@@ -44,7 +44,7 @@ function update() {
 }
 
 async function refresh(panel) {
-  let url = `//${panel.where||location.host}/favicon.png`
+  let url = `//${panel.where||location.host}/small-fed-wiki/status/favicon.png`
   let title = `<h3><img width=24 src="${url}"> ${panel.page.title}</h3>`
   let looks = panel.panes.map(pane => pane.look)
   let debug = `<p><button data-pid=${panel.pid}>debug</button></p>`
