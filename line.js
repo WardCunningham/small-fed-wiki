@@ -106,7 +106,7 @@ async function resolve(title, pid) {
 
 function probe(where, slug) {
   let site = where == null ? origin : where
-  return fetch(`http://${site}/${slug}.json`)
+  return fetch(`pages/${slug}`)
     .then(res => res.ok ? res.json() : null)
     .catch(err => null)
 }
