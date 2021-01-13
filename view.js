@@ -27,7 +27,7 @@ function start () {
 
 function section() {
   let hash = (location.hash||'welcome-visitors').replace(/(^[\/#]+)|(\/+$)/g,'')
-  reload(`${location.host}/pages`,hash).then(update)
+  reload(`${location.host}/small-fed-wiki/pages`,hash).then(update)
   return ''
 }
 
