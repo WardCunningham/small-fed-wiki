@@ -4,7 +4,7 @@ let origin = 'localhost'
 
 const newpid = () => Math.floor(Math.random()*1000000)
 const newpanel = (props) => ({pid:newpid(), stats:{}, ...props})
-const purl = (site, slug) => site ? `//${site}/${slug}.json` : `//${origin}/${slug}.json`
+const purl = (site, slug) => site ? `//${site}/${slug}.json` : `//${origin}/${slug}`
 
 let lineup = []
 let types = {}
