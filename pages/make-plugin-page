@@ -1,0 +1,179 @@
+{
+  "title": "Make Plugin Page",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "61eadecf1e111de3",
+      "text": "New strategy for making plugins. This starts at the Make New Plugin page. See [[Client Type Modules]]"
+    },
+    {
+      "type": "paragraph",
+      "id": "27e2472afd94b76f",
+      "text": "You fill out a form with basic info like the plugin name and what it does. You also describe what markup keywords will have special meaning and what data sources you consume and/or provide. Then press download to get your new plugin. Drag that to your plugin assets folder and you are operational.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "d7c483213738adc3",
+      "text": "You may have to say for which version of wiki you are making plugins. There could be many as we explore improvements in the plugin api. But no problem, if you change your mind you just choose a new version and press download again.\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "84a7bf1a361b2039",
+      "text": "Your plugin will come with a pretty good About page. Remember those details you entered? This will be compressed into the plugin source code using the page shorthand we developed for the seran outpost. \nThere will be standard stubs for the things your plugin actually does. These might even survive api version changes. Anyone thinking of changing the internal api can just regenerate a bunch of plugins and see if this reuse strategy works."
+    },
+    {
+      "type": "markdown",
+      "id": "d5e2de5780059949",
+      "text": "# Proliferation"
+    },
+    {
+      "type": "paragraph",
+      "id": "f0be100c82a112cf",
+      "text": "I can foresee a proliferation of read-only sites offering read-write services though one-off plugins. \n\n"
+    },
+    {
+      "type": "paragraph",
+      "id": "a4156801fa6b1586",
+      "text": "Say I created a database and wanted visitors to enter information using a read-only plugin with a read-write action. This plugin would only work when viewed with my site as origin. But the page upon which the plugin appeared could be forked into the federation where I would be soliciting participants. Other origins would not have the plugin (or the read-write database) but they could suggest interested parties open a new browser tab where they could complete the requested participation."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Make Plugin Page",
+        "story": []
+      },
+      "date": 1609179263589
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "61eadecf1e111de3"
+      },
+      "id": "61eadecf1e111de3",
+      "type": "add",
+      "date": 1609179298511
+    },
+    {
+      "type": "edit",
+      "id": "61eadecf1e111de3",
+      "item": {
+        "type": "paragraph",
+        "id": "61eadecf1e111de3",
+        "text": "New strategy for making plugins. This starts at the Make New Plugin page."
+      },
+      "date": 1609179306565
+    },
+    {
+      "type": "edit",
+      "id": "61eadecf1e111de3",
+      "item": {
+        "type": "paragraph",
+        "id": "61eadecf1e111de3",
+        "text": "New strategy for making plugins. This starts at the Make New Plugin page. See [[Client Type Modules]]"
+      },
+      "date": 1609179333441
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "27e2472afd94b76f"
+      },
+      "id": "27e2472afd94b76f",
+      "type": "add",
+      "after": "61eadecf1e111de3",
+      "date": 1609179373917
+    },
+    {
+      "type": "edit",
+      "id": "27e2472afd94b76f",
+      "item": {
+        "type": "paragraph",
+        "id": "27e2472afd94b76f",
+        "text": "You fill out a form with basic info like the plugin name and what it does. You also describe what markup keywords will have special meaning and what data sources you consume and/or provide. Then press download to get your new plugin. Drag that to your plugin assets folder and you are operational.\n"
+      },
+      "date": 1609179395833
+    },
+    {
+      "type": "add",
+      "id": "d7c483213738adc3",
+      "item": {
+        "type": "paragraph",
+        "id": "d7c483213738adc3",
+        "text": "You may have to say for which version of wiki you are making plugins. There could be many as we explore improvements in the plugin api. But no problem, if you change your mind you just choose a new version and press download again.\n"
+      },
+      "after": "27e2472afd94b76f",
+      "date": 1609179402232
+    },
+    {
+      "type": "add",
+      "id": "84a7bf1a361b2039",
+      "item": {
+        "type": "paragraph",
+        "id": "84a7bf1a361b2039",
+        "text": "Your plugin will come with a pretty good About page. Remember those details you entered? This will be compressed into the plugin source code using the page shorthand we developed for the seran outpost. \nThere will be standard stubs for the things your plugin actually does. These might even survive api version changes. Anyone thinking of changing the internal api can just regenerate a bunch of plugins and see if this reuse strategy works.\n"
+      },
+      "after": "d7c483213738adc3",
+      "date": 1609179410125
+    },
+    {
+      "type": "add",
+      "id": "f0be100c82a112cf",
+      "item": {
+        "type": "paragraph",
+        "id": "f0be100c82a112cf",
+        "text": "I can foresee a proliferation of read-only sites offering read-write services though one-off plugins. \n\n"
+      },
+      "after": "84a7bf1a361b2039",
+      "date": 1609179419516
+    },
+    {
+      "type": "add",
+      "id": "a4156801fa6b1586",
+      "item": {
+        "type": "paragraph",
+        "id": "a4156801fa6b1586",
+        "text": "Say I created a database and wanted visitors to enter information using a read-only plugin with a read-write action. This plugin would only work when viewed with my site as origin. But the page upon which the plugin appeared could be forked into the federation where I would be soliciting participants. Other origins would not have the plugin (or the read-write database) but they could suggest interested parties open a new browser tab where they could complete the requested participation."
+      },
+      "after": "f0be100c82a112cf",
+      "date": 1609179430336
+    },
+    {
+      "type": "edit",
+      "id": "84a7bf1a361b2039",
+      "item": {
+        "type": "paragraph",
+        "id": "84a7bf1a361b2039",
+        "text": "Your plugin will come with a pretty good About page. Remember those details you entered? This will be compressed into the plugin source code using the page shorthand we developed for the seran outpost. \nThere will be standard stubs for the things your plugin actually does. These might even survive api version changes. Anyone thinking of changing the internal api can just regenerate a bunch of plugins and see if this reuse strategy works."
+      },
+      "date": 1609179482603
+    },
+    {
+      "type": "add",
+      "id": "d5e2de5780059949",
+      "item": {
+        "type": "paragraph",
+        "id": "d5e2de5780059949",
+        "text": "# Proliferation"
+      },
+      "after": "84a7bf1a361b2039",
+      "date": 1609179492260
+    },
+    {
+      "type": "edit",
+      "id": "d5e2de5780059949",
+      "item": {
+        "type": "markdown",
+        "id": "d5e2de5780059949",
+        "text": "# Proliferation"
+      },
+      "date": 1609179495542
+    },
+    {
+      "type": "fork",
+      "site": "ward.asia.wiki.org",
+      "date": 1609179755582
+    }
+  ]
+}

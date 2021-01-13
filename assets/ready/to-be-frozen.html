@@ -1,0 +1,33 @@
+<center><button onclick="start()">start</button></center>
+<center id=doing>ready</center>
+<div id=output><div>
+
+<script>
+
+  async function start() {
+    doing.innerHTML = 'working'
+    output.innerHTML = ''
+    let sitemap = await fetch('/system/sitemap.json').then(res => res.json())
+    let workers = []
+    for (let info of sitemap) {
+      workers.push(fetch(`/${info.slug}.json`).then(res => res.json()).then(async page => check(page)))
+    }
+    await Promise.all(workers)
+    doing.innerHTML = 'done'
+  }
+
+  async function check(page) {
+    let graphs = page.story.filter(item => item.type=='graphviz' && !item.svg)
+    if (graphs.length) output.innerHTML += `<span onclick="show(event)">${page.title}</span><br>`
+  }
+
+  function show(event) {
+    window.parent.postMessage({
+      action: "doInternalLink",
+      title: event.target.innerText,
+      pageKey: window.frameElement.name,
+      keepLineup: event.shiftKey
+    })
+  }
+
+</script>

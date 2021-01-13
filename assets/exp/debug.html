@@ -1,0 +1,108 @@
+<head>
+    <meta charset="UTF-8">
+    <script src="https://unpkg.com/@hpcc-js/wasm/dist/index.min.js"></script>
+    <script> var hpccWasm = window["@hpcc-js/wasm"]; </script>
+</head>
+<body>
+  <style>
+    td {vertical-align:top;}
+  </style>
+  <div id="chart"></div>
+  <div id="messg"></div>
+  <div id="trace"></div>
+
+<script type=module>
+
+
+import { reload, click, lineup } from './line.js'
+
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms))
+const prob = (pcnt) => Math.random()*100 < pcnt
+const norm = (mean) => (Math.random()-Math.random()+1)*mean
+const choose = (list) => {for (let one of list) if (prob(50)) return one; return null}
+const quote = (title) => `"${title.replace(/ +/g,'\n')}"`
+
+let origin = 'small.fed.wiki'
+let hash = location.hash || 'welcome-visitors'
+
+let model = {}
+let recent = []
+
+ramble()
+
+async function ramble() {
+  let trouble = null
+  await reload(origin, hash)
+  while (true) {
+    await draw()
+    trouble = checks()
+    if (trouble) break
+    await Promise.all([
+      monkey(),
+      delay(1000)
+    ])
+  }
+  messg.innerHTML = `<p><pre>${JSON.stringify(trouble)}</pre></p>`
+}
+
+
+async function monkey() {
+  let panel = choose(lineup.slice().reverse())
+  if(panel) {
+    // console.log('monkey panel',panel)
+    let links = panel.panes.map(pane=>pane.links)
+    // console.log(links)
+    let choice = choose(links.flat().filter(link => !recent.includes(link)))
+    if(choice) {
+      recent.push(choice)
+      if(recent.length > 4) recent.shift()
+      console.log('click', panel.page.title, '=>', choice)
+      let key = `${quote(panel.page.title)} -> ${quote(choice)}`
+      model[key] = model[key] || 0
+      model[key] += 1
+      await click(choice, panel.pid)
+    }
+  }
+}
+
+async function draw() {
+  let roots = lineup.map(panel => quote(panel.page.title))
+  let rows = Object.keys(model).sort()
+  let dot = `digraph {
+    rankdir=LR
+    node [shape=box style=filled fillcolor=gold]
+    ${roots.join("\n")}
+    node [fillcolor=bisque]
+    ${rows.map(edge).join("\n")}
+  }`
+  trace.innerHTML = `<table border=1><tr><td>${lineup.slice(-10).map(panel => debug(panel)).join('<td>')}</table>`
+  chart.innerHTML = await hpccWasm.graphviz.layout(dot, "svg", "dot")
+}
+
+function edge(key) {
+  let count = model[key]
+  let width = count >= 10 ? 2 : 1
+  return `${key} [label="${count}" penwidth="${width}"]`
+}
+
+function debug(panel) {
+  let pid = panel.pid
+  let title = panel.page.title
+  let where = panel.where || null
+  let story = panel.page.story.filter(item => item.type != 'paragraph').map(item => item.type)
+  let links = panel.panes.map(pane=>pane.links).flat()
+  let stats = panel.stats
+  let json = {pid, title, where, story, links, stats}
+  return `<pre>${JSON.stringify(json,null, 2)}</pre>`
+}
+
+function checks() {
+  let panel = lineup.slice(-1)[0]
+  if (typeof panel.pid === 'undefined') return {error:"undefined pid"}
+  if (typeof panel.page.title !== 'string') return {error:"expect title as string"}
+  if (!Array.isArray(panel.page.story)) return {error:"expect story as Array"}
+  // if (!panel.panes.map(pane=>pane.links).flat().length) return {error:"no links on page"}
+  return undefined
+}
+
+</script>

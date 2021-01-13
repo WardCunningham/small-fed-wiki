@@ -1,0 +1,1812 @@
+{
+  "title": "Hierarchy of Mechanism",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "c99052c854f7940f",
+      "text": "We wish to implement and test wiki feature by feature where more mechanisms must be working correctly for newer features to work as intended. ► marks need met."
+    },
+    {
+      "type": "paragraph",
+      "id": "656322157b08d1ee",
+      "text": "Consider link sources such as twins, references, backlinks, map markers, graphviz links, searches."
+    },
+    {
+      "type": "pagefold",
+      "id": "d4084395c0fa324b",
+      "text": "hypertext"
+    },
+    {
+      "type": "paragraph",
+      "id": "9da0cbabbe812b99",
+      "text": "► Complete a phrase that you own."
+    },
+    {
+      "type": "paragraph",
+      "id": "65acaee5e19e3330",
+      "text": "Page json with title, story and paragraph types."
+    },
+    {
+      "type": "paragraph",
+      "id": "15919f315afd3fab",
+      "text": "Recognize internal links in paragraph text."
+    },
+    {
+      "type": "paragraph",
+      "id": "3d3553b466f3051a",
+      "text": "Consistently convert title to slug."
+    },
+    {
+      "type": "paragraph",
+      "id": "dbee98d6b099b735",
+      "text": "Fetch new page json based on slug."
+    },
+    {
+      "type": "pagefold",
+      "id": "ce735ff8161adca1",
+      "text": "lineup"
+    },
+    {
+      "type": "paragraph",
+      "id": "d09169c76aa61746",
+      "text": "► Ponder the space between pages."
+    },
+    {
+      "type": "paragraph",
+      "id": "3cb37954f99b38fc",
+      "text": "Render page json into panels."
+    },
+    {
+      "type": "paragraph",
+      "id": "f5683b628b06b3e8",
+      "text": "Add or replace panels at user's discretion."
+    },
+    {
+      "type": "pagefold",
+      "id": "ee2f393464ed62c3",
+      "text": "ghost"
+    },
+    {
+      "type": "paragraph",
+      "id": "b981fd711ed13fc9",
+      "text": "► Draw content from possibilities."
+    },
+    {
+      "type": "paragraph",
+      "id": "3271df9920f6fa89",
+      "text": "Fabricate temporary pages for explanatory panels."
+    },
+    {
+      "type": "paragraph",
+      "id": "a631791c0f17e021",
+      "text": "Create ghost for pages not found."
+    },
+    {
+      "type": "pagefold",
+      "id": "afa3122107b863b8",
+      "text": "markup"
+    },
+    {
+      "type": "paragraph",
+      "id": "86a826867a6c7d5b",
+      "text": "► Adaptable units of familiar or exotic function."
+    },
+    {
+      "type": "paragraph",
+      "id": "be59e650626d7a4e",
+      "text": "Extend page json with additional item types."
+    },
+    {
+      "type": "paragraph",
+      "id": "b1612f2557e9ddb8",
+      "text": "Bundle a few types so that they are reliably present."
+    },
+    {
+      "type": "paragraph",
+      "id": "a519c2b64a75bc7a",
+      "text": "Dynamically load additional trusted types."
+    },
+    {
+      "type": "paragraph",
+      "id": "3257008f6418ff46",
+      "text": "Bundle about documentation with each type."
+    },
+    {
+      "type": "pagefold",
+      "id": "98d537b5fbd31307",
+      "text": "resolution"
+    },
+    {
+      "type": "paragraph",
+      "id": "05f4f92e76f86ce6",
+      "text": "► Commons shaped by useful pages shared."
+    },
+    {
+      "type": "paragraph",
+      "id": "aecdc84c5cf9ff90",
+      "text": "Search for page json from a prioritized list of sites."
+    },
+    {
+      "type": "paragraph",
+      "id": "c425d61ed37d3827",
+      "text": "Record a history of fork actions to inform the list."
+    },
+    {
+      "type": "paragraph",
+      "id": "fd9536a265deb061",
+      "text": "Factor the origin into the list."
+    },
+    {
+      "type": "paragraph",
+      "id": "4956be0fd37f5100",
+      "text": "Factor markup or item properties into the list."
+    },
+    {
+      "type": "pagefold",
+      "id": "247bac39742fccbd",
+      "text": "revision"
+    },
+    {
+      "type": "paragraph",
+      "id": "f05383fe74999129",
+      "text": "► Expose how and where a page came to be."
+    },
+    {
+      "type": "paragraph",
+      "id": "5b2b384a311a9110",
+      "text": "Record a history of edit actions that produced a page."
+    },
+    {
+      "type": "paragraph",
+      "id": "e6759feff19a9b6b",
+      "text": "Construct a random identity for items when created."
+    },
+    {
+      "type": "paragraph",
+      "id": "b788596ed4b3a6e7",
+      "text": "Add or move items based on the identity of existing items."
+    },
+    {
+      "type": "paragraph",
+      "id": "e3a64483676a458d",
+      "text": "Reapply action history to reconstruct revisions."
+    },
+    {
+      "type": "pagefold",
+      "id": "9ad5cfabf58d7550",
+      "text": "neighborhood"
+    },
+    {
+      "type": "paragraph",
+      "id": "6ce4131d915b94b4",
+      "text": "► Sphere of influences shows as one explores."
+    },
+    {
+      "type": "paragraph",
+      "id": "3d85c68607393927",
+      "text": "Construct and maintain sitemaps for pages within a site."
+    },
+    {
+      "type": "paragraph",
+      "id": "40497933ce663c47",
+      "text": "Retrieve and accumulate sitemaps for sites encountered."
+    },
+    {
+      "type": "paragraph",
+      "id": "d38412b138a67301",
+      "text": "Identify lineup panels with twins in neighborhood."
+    },
+    {
+      "type": "paragraph",
+      "id": "ce8c8122c912fc70",
+      "text": "Click to add twin to lineup."
+    },
+    {
+      "type": "paragraph",
+      "id": "0bf215fea4e0e42b",
+      "text": "Display sites in neighborhood. Click to open welcome."
+    },
+    {
+      "type": "pagefold",
+      "id": "92bf7e67fe96432e",
+      "text": "search"
+    },
+    {
+      "type": "paragraph",
+      "id": "5d074a0f17b3bc5f",
+      "text": "► Find pages by secondary associations e.g. terminology."
+    },
+    {
+      "type": "paragraph",
+      "id": "4fcffa0b7cd761aa",
+      "text": "Search the neighborhood for desired pages."
+    },
+    {
+      "type": "paragraph",
+      "id": "68a01207821b5da6",
+      "text": "Search page synopsis or full-text index when available."
+    },
+    {
+      "type": "paragraph",
+      "id": "ea72dc74a4320a7f",
+      "text": "Offer a prioritized list of alternative pages."
+    },
+    {
+      "type": "paragraph",
+      "id": "e767225dd2971195",
+      "text": "Optionally construct a ghost page of search results."
+    },
+    {
+      "type": "pagefold",
+      "id": "ef0662a0dc9514c4",
+      "text": "backlinks"
+    },
+    {
+      "type": "paragraph",
+      "id": "43b07a0ac19718cb",
+      "text": "► Traverse primary associations forward and backward."
+    },
+    {
+      "type": "paragraph",
+      "id": "1e4524dba737c4d1",
+      "text": "Annotate sitemaps with forward links from each page."
+    },
+    {
+      "type": "paragraph",
+      "id": "05a5f133b3097a65",
+      "text": "Search the neighborhood for links to pages in the lineup."
+    },
+    {
+      "type": "paragraph",
+      "id": "154b2f6d3acfac68",
+      "text": "Append an organized list of backlinks to each panel."
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Hierarchy of Mechanism",
+        "story": []
+      },
+      "date": 1610128668812
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "c99052c854f7940f"
+      },
+      "id": "c99052c854f7940f",
+      "type": "add",
+      "date": 1610128683996
+    },
+    {
+      "type": "edit",
+      "id": "c99052c854f7940f",
+      "item": {
+        "type": "paragraph",
+        "id": "c99052c854f7940f",
+        "text": "We wish to implement and test wiki feature by feature where more mechanisms must be working correctly for newer features to work as intended."
+      },
+      "date": 1610128688424
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "d4084395c0fa324b"
+      },
+      "id": "d4084395c0fa324b",
+      "type": "add",
+      "after": "c99052c854f7940f",
+      "date": 1610128701936
+    },
+    {
+      "type": "edit",
+      "id": "d4084395c0fa324b",
+      "item": {
+        "type": "pagefold",
+        "id": "d4084395c0fa324b",
+        "text": "hypertext"
+      },
+      "date": 1610128728791
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9da0cbabbe812b99"
+      },
+      "id": "9da0cbabbe812b99",
+      "type": "add",
+      "after": "d4084395c0fa324b",
+      "date": 1610128731726
+    },
+    {
+      "type": "edit",
+      "id": "9da0cbabbe812b99",
+      "item": {
+        "type": "paragraph",
+        "id": "9da0cbabbe812b99",
+        "text": "Page json with title, story and paragraph types."
+      },
+      "date": 1610128821089
+    },
+    {
+      "type": "add",
+      "id": "15919f315afd3fab",
+      "item": {
+        "type": "paragraph",
+        "id": "15919f315afd3fab",
+        "text": "Recognize internal links in paragraph text."
+      },
+      "after": "9da0cbabbe812b99",
+      "date": 1610128931111
+    },
+    {
+      "type": "add",
+      "id": "3d3553b466f3051a",
+      "item": {
+        "type": "paragraph",
+        "id": "3d3553b466f3051a",
+        "text": "Consistently convert title to slug."
+      },
+      "after": "15919f315afd3fab",
+      "date": 1610128988116
+    },
+    {
+      "type": "add",
+      "id": "dbee98d6b099b735",
+      "item": {
+        "type": "paragraph",
+        "id": "dbee98d6b099b735",
+        "text": "Fetch new page json based on slug."
+      },
+      "after": "3d3553b466f3051a",
+      "date": 1610129023812
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ce735ff8161adca1"
+      },
+      "id": "ce735ff8161adca1",
+      "type": "add",
+      "after": "dbee98d6b099b735",
+      "date": 1610129053158
+    },
+    {
+      "type": "edit",
+      "id": "ce735ff8161adca1",
+      "item": {
+        "type": "pagefold",
+        "id": "ce735ff8161adca1",
+        "text": "lineup"
+      },
+      "date": 1610129059034
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3cb37954f99b38fc"
+      },
+      "id": "3cb37954f99b38fc",
+      "type": "add",
+      "after": "ce735ff8161adca1",
+      "date": 1610129080762
+    },
+    {
+      "type": "edit",
+      "id": "3cb37954f99b38fc",
+      "item": {
+        "type": "paragraph",
+        "id": "3cb37954f99b38fc",
+        "text": "Render page json into panels."
+      },
+      "date": 1610129124517
+    },
+    {
+      "type": "add",
+      "id": "f5683b628b06b3e8",
+      "item": {
+        "type": "paragraph",
+        "id": "f5683b628b06b3e8",
+        "text": "Add or replace panels as user's discression."
+      },
+      "after": "3cb37954f99b38fc",
+      "date": 1610129188967
+    },
+    {
+      "type": "edit",
+      "id": "f5683b628b06b3e8",
+      "item": {
+        "type": "paragraph",
+        "id": "f5683b628b06b3e8",
+        "text": "Add or replace panels at user's discression."
+      },
+      "date": 1610129329719
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "afa3122107b863b8"
+      },
+      "id": "afa3122107b863b8",
+      "type": "add",
+      "after": "f5683b628b06b3e8",
+      "date": 1610129381699
+    },
+    {
+      "type": "edit",
+      "id": "afa3122107b863b8",
+      "item": {
+        "type": "pagefold",
+        "id": "afa3122107b863b8",
+        "text": "markup"
+      },
+      "date": 1610129389948
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "be59e650626d7a4e"
+      },
+      "id": "be59e650626d7a4e",
+      "type": "add",
+      "after": "afa3122107b863b8",
+      "date": 1610129395632
+    },
+    {
+      "type": "edit",
+      "id": "be59e650626d7a4e",
+      "item": {
+        "type": "paragraph",
+        "id": "be59e650626d7a4e",
+        "text": "Extend page json with additional item types."
+      },
+      "date": 1610129427941
+    },
+    {
+      "type": "add",
+      "id": "b1612f2557e9ddb8",
+      "item": {
+        "type": "paragraph",
+        "id": "b1612f2557e9ddb8",
+        "text": "Bundle a few types so that they are reliably present."
+      },
+      "after": "be59e650626d7a4e",
+      "date": 1610129574724
+    },
+    {
+      "type": "add",
+      "id": "a519c2b64a75bc7a",
+      "item": {
+        "type": "paragraph",
+        "id": "a519c2b64a75bc7a",
+        "text": "Dynamically load additional trusted types."
+      },
+      "after": "b1612f2557e9ddb8",
+      "date": 1610129688913
+    },
+    {
+      "type": "add",
+      "id": "656322157b08d1ee",
+      "item": {
+        "type": "paragraph",
+        "id": "656322157b08d1ee",
+        "text": "Consider link sources such as twins, references, backlinks, map markers, graphviz links, searches."
+      },
+      "after": "c99052c854f7940f",
+      "date": 1610129830316
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "98d537b5fbd31307"
+      },
+      "id": "98d537b5fbd31307",
+      "type": "add",
+      "after": "a519c2b64a75bc7a",
+      "date": 1610130139061
+    },
+    {
+      "type": "edit",
+      "id": "98d537b5fbd31307",
+      "item": {
+        "type": "pagefold",
+        "id": "98d537b5fbd31307",
+        "text": "resolution"
+      },
+      "date": 1610130148187
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "aecdc84c5cf9ff90"
+      },
+      "id": "aecdc84c5cf9ff90",
+      "type": "add",
+      "after": "98d537b5fbd31307",
+      "date": 1610130167081
+    },
+    {
+      "type": "edit",
+      "id": "aecdc84c5cf9ff90",
+      "item": {
+        "type": "paragraph",
+        "id": "aecdc84c5cf9ff90",
+        "text": "Search for page json for a prioritized list of sites."
+      },
+      "date": 1610130258407
+    },
+    {
+      "type": "add",
+      "id": "c425d61ed37d3827",
+      "item": {
+        "type": "paragraph",
+        "id": "c425d61ed37d3827",
+        "text": "Record a history of fork actions."
+      },
+      "after": "aecdc84c5cf9ff90",
+      "date": 1610130438764
+    },
+    {
+      "type": "edit",
+      "id": "aecdc84c5cf9ff90",
+      "item": {
+        "type": "paragraph",
+        "id": "aecdc84c5cf9ff90",
+        "text": "Search for page json from a prioritized list of sites."
+      },
+      "date": 1610130533785
+    },
+    {
+      "type": "edit",
+      "id": "c425d61ed37d3827",
+      "item": {
+        "type": "paragraph",
+        "id": "c425d61ed37d3827",
+        "text": "Record a history of fork actions to inform the list."
+      },
+      "date": 1610130543595
+    },
+    {
+      "type": "add",
+      "id": "fd9536a265deb061",
+      "item": {
+        "type": "paragraph",
+        "id": "fd9536a265deb061",
+        "text": "Factor the origin into the list."
+      },
+      "after": "c425d61ed37d3827",
+      "date": 1610130620240
+    },
+    {
+      "type": "add",
+      "id": "4956be0fd37f5100",
+      "item": {
+        "type": "paragraph",
+        "id": "4956be0fd37f5100",
+        "text": "Factor markup or item properties into the list."
+      },
+      "after": "fd9536a265deb061",
+      "date": 1610130679866
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "247bac39742fccbd"
+      },
+      "id": "247bac39742fccbd",
+      "type": "add",
+      "after": "4956be0fd37f5100",
+      "date": 1610130929759
+    },
+    {
+      "type": "edit",
+      "id": "247bac39742fccbd",
+      "item": {
+        "type": "pagefold",
+        "id": "247bac39742fccbd",
+        "text": "revision"
+      },
+      "date": 1610130943967
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "5b2b384a311a9110"
+      },
+      "id": "5b2b384a311a9110",
+      "type": "add",
+      "after": "247bac39742fccbd",
+      "date": 1610130946447
+    },
+    {
+      "type": "edit",
+      "id": "5b2b384a311a9110",
+      "item": {
+        "type": "paragraph",
+        "id": "5b2b384a311a9110",
+        "text": "Record a history of edit actions that produced a page."
+      },
+      "date": 1610130999340
+    },
+    {
+      "type": "add",
+      "id": "e6759feff19a9b6b",
+      "item": {
+        "type": "paragraph",
+        "id": "e6759feff19a9b6b",
+        "text": "Construct a random identity for items when created."
+      },
+      "after": "5b2b384a311a9110",
+      "date": 1610131186364
+    },
+    {
+      "type": "add",
+      "id": "b788596ed4b3a6e7",
+      "item": {
+        "type": "paragraph",
+        "id": "b788596ed4b3a6e7",
+        "text": "Add or move items based on the identity of existing items."
+      },
+      "after": "e6759feff19a9b6b",
+      "date": 1610131281723
+    },
+    {
+      "type": "add",
+      "id": "e3a64483676a458d",
+      "item": {
+        "type": "paragraph",
+        "id": "e3a64483676a458d",
+        "text": "Reapply action history to reconstruct revisions."
+      },
+      "after": "b788596ed4b3a6e7",
+      "date": 1610131379066
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "9ad5cfabf58d7550"
+      },
+      "id": "9ad5cfabf58d7550",
+      "type": "add",
+      "after": "e3a64483676a458d",
+      "date": 1610131708057
+    },
+    {
+      "type": "edit",
+      "id": "9ad5cfabf58d7550",
+      "item": {
+        "type": "pagefold",
+        "id": "9ad5cfabf58d7550",
+        "text": "neighborhood"
+      },
+      "date": 1610131728140
+    },
+    {
+      "id": "9ad5cfabf58d7550",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "afa3122107b863b8",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "98d537b5fbd31307",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "9ad5cfabf58d7550",
+        "247bac39742fccbd",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d"
+      ],
+      "date": 1610131733572
+    },
+    {
+      "id": "9ad5cfabf58d7550",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "afa3122107b863b8",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "98d537b5fbd31307",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "247bac39742fccbd",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d",
+        "9ad5cfabf58d7550"
+      ],
+      "date": 1610131759274
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "3d85c68607393927"
+      },
+      "id": "3d85c68607393927",
+      "type": "add",
+      "after": "9ad5cfabf58d7550",
+      "date": 1610131844515
+    },
+    {
+      "type": "edit",
+      "id": "3d85c68607393927",
+      "item": {
+        "type": "paragraph",
+        "id": "3d85c68607393927",
+        "text": "Construct and maintain sitemaps for pages within a site."
+      },
+      "date": 1610131884785
+    },
+    {
+      "type": "add",
+      "id": "40497933ce663c47",
+      "item": {
+        "type": "paragraph",
+        "id": "40497933ce663c47",
+        "text": "Retrieve and accumulate sitemaps for sites encountered."
+      },
+      "after": "3d85c68607393927",
+      "date": 1610131963945
+    },
+    {
+      "type": "add",
+      "id": "d38412b138a67301",
+      "item": {
+        "type": "paragraph",
+        "id": "d38412b138a67301",
+        "text": "Identify lineup panels with twins in sitemaps."
+      },
+      "after": "40497933ce663c47",
+      "date": 1610132168341
+    },
+    {
+      "type": "add",
+      "id": "ce8c8122c912fc70",
+      "item": {
+        "type": "paragraph",
+        "id": "ce8c8122c912fc70",
+        "text": "Click to add twin to lineup."
+      },
+      "after": "d38412b138a67301",
+      "date": 1610132235886
+    },
+    {
+      "type": "add",
+      "id": "0bf215fea4e0e42b",
+      "item": {
+        "type": "paragraph",
+        "id": "0bf215fea4e0e42b",
+        "text": "Display "
+      },
+      "after": "ce8c8122c912fc70",
+      "date": 1610132275304
+    },
+    {
+      "type": "edit",
+      "id": "d38412b138a67301",
+      "item": {
+        "type": "paragraph",
+        "id": "d38412b138a67301",
+        "text": "Identify lineup panels with twins in neighborhood."
+      },
+      "date": 1610132283601
+    },
+    {
+      "type": "edit",
+      "id": "0bf215fea4e0e42b",
+      "item": {
+        "type": "paragraph",
+        "id": "0bf215fea4e0e42b",
+        "text": "Display sites in neighborhood. Click to open welcome."
+      },
+      "date": 1610132315012
+    },
+    {
+      "type": "add",
+      "id": "3257008f6418ff46",
+      "item": {
+        "type": "paragraph",
+        "id": "3257008f6418ff46",
+        "text": "Bundle about page documentation with each type."
+      },
+      "after": "a519c2b64a75bc7a",
+      "date": 1610132662993
+    },
+    {
+      "type": "edit",
+      "id": "3257008f6418ff46",
+      "item": {
+        "type": "paragraph",
+        "id": "3257008f6418ff46",
+        "text": "Bundle about documentation with each type."
+      },
+      "date": 1610132682829
+    },
+    {
+      "type": "add",
+      "id": "ee2f393464ed62c3",
+      "item": {
+        "type": "factory",
+        "id": "ee2f393464ed62c3",
+        "text": "ghos"
+      },
+      "after": "f5683b628b06b3e8",
+      "date": 1610132804262
+    },
+    {
+      "type": "edit",
+      "id": "ee2f393464ed62c3",
+      "item": {
+        "type": "pagefold",
+        "id": "ee2f393464ed62c3",
+        "text": "ghost"
+      },
+      "date": 1610132815549
+    },
+    {
+      "type": "edit",
+      "id": "f5683b628b06b3e8",
+      "item": {
+        "type": "paragraph",
+        "id": "f5683b628b06b3e8",
+        "text": "Add or replace panels at user's discretion."
+      },
+      "date": 1610132825697
+    },
+    {
+      "type": "add",
+      "id": "3271df9920f6fa89",
+      "item": {
+        "type": "paragraph",
+        "id": "3271df9920f6fa89",
+        "text": "Fabricate temporary pages for explanatory panels."
+      },
+      "after": "f5683b628b06b3e8",
+      "date": 1610132903139
+    },
+    {
+      "id": "3271df9920f6fa89",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "ee2f393464ed62c3",
+        "3271df9920f6fa89",
+        "afa3122107b863b8",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "3257008f6418ff46",
+        "98d537b5fbd31307",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "247bac39742fccbd",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d",
+        "9ad5cfabf58d7550",
+        "3d85c68607393927",
+        "40497933ce663c47",
+        "d38412b138a67301",
+        "ce8c8122c912fc70",
+        "0bf215fea4e0e42b"
+      ],
+      "date": 1610132909118
+    },
+    {
+      "type": "add",
+      "id": "a631791c0f17e021",
+      "item": {
+        "type": "paragraph",
+        "id": "a631791c0f17e021",
+        "text": "Create ghost for pages not found."
+      },
+      "after": "3271df9920f6fa89",
+      "date": 1610132944933
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "54182f608f7b590d"
+      },
+      "id": "54182f608f7b590d",
+      "type": "add",
+      "after": "0bf215fea4e0e42b",
+      "date": 1610133067600
+    },
+    {
+      "type": "remove",
+      "id": "54182f608f7b590d",
+      "date": 1610133076855
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "92bf7e67fe96432e"
+      },
+      "id": "92bf7e67fe96432e",
+      "type": "add",
+      "after": "0bf215fea4e0e42b",
+      "date": 1610133082924
+    },
+    {
+      "type": "edit",
+      "id": "92bf7e67fe96432e",
+      "item": {
+        "type": "pagefold",
+        "id": "92bf7e67fe96432e",
+        "text": "search"
+      },
+      "date": 1610133089849
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "4fcffa0b7cd761aa"
+      },
+      "id": "4fcffa0b7cd761aa",
+      "type": "add",
+      "after": "92bf7e67fe96432e",
+      "date": 1610133093327
+    },
+    {
+      "type": "edit",
+      "id": "4fcffa0b7cd761aa",
+      "item": {
+        "type": "paragraph",
+        "id": "4fcffa0b7cd761aa",
+        "text": "Search the neighborhood for desired pages."
+      },
+      "date": 1610133192635
+    },
+    {
+      "type": "add",
+      "id": "68a01207821b5da6",
+      "item": {
+        "type": "paragraph",
+        "id": "68a01207821b5da6",
+        "text": "Search page synopsis or full-text index when available."
+      },
+      "after": "4fcffa0b7cd761aa",
+      "date": 1610133289090
+    },
+    {
+      "type": "add",
+      "id": "ea72dc74a4320a7f",
+      "item": {
+        "type": "paragraph",
+        "id": "ea72dc74a4320a7f",
+        "text": "Offer a prioritized list of alternative pages."
+      },
+      "after": "68a01207821b5da6",
+      "date": 1610133345933
+    },
+    {
+      "type": "add",
+      "id": "e767225dd2971195",
+      "item": {
+        "type": "paragraph",
+        "id": "e767225dd2971195",
+        "text": "Optionally construct a ghost page of search results."
+      },
+      "after": "ea72dc74a4320a7f",
+      "date": 1610133445034
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "ef0662a0dc9514c4"
+      },
+      "id": "ef0662a0dc9514c4",
+      "type": "add",
+      "after": "e767225dd2971195",
+      "date": 1610133493639
+    },
+    {
+      "type": "edit",
+      "id": "ef0662a0dc9514c4",
+      "item": {
+        "type": "pagefold",
+        "id": "ef0662a0dc9514c4",
+        "text": "backlinks"
+      },
+      "date": 1610133507266
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "1e4524dba737c4d1"
+      },
+      "id": "1e4524dba737c4d1",
+      "type": "add",
+      "after": "ef0662a0dc9514c4",
+      "date": 1610133536106
+    },
+    {
+      "type": "edit",
+      "id": "1e4524dba737c4d1",
+      "item": {
+        "type": "paragraph",
+        "id": "1e4524dba737c4d1",
+        "text": "Annotate sitemaps with forward links from each page."
+      },
+      "date": 1610133562037
+    },
+    {
+      "type": "add",
+      "id": "05a5f133b3097a65",
+      "item": {
+        "type": "paragraph",
+        "id": "05a5f133b3097a65",
+        "text": "Search the neighborhood for links to pages in the lineup."
+      },
+      "after": "1e4524dba737c4d1",
+      "date": 1610133620135
+    },
+    {
+      "type": "add",
+      "id": "154b2f6d3acfac68",
+      "item": {
+        "type": "paragraph",
+        "id": "154b2f6d3acfac68",
+        "text": "Append an organized list of backlinks to each panel."
+      },
+      "after": "05a5f133b3097a65",
+      "date": 1610133671634
+    },
+    {
+      "type": "edit",
+      "id": "9da0cbabbe812b99",
+      "item": {
+        "type": "paragraph",
+        "id": "9da0cbabbe812b99",
+        "text": "A title that you own."
+      },
+      "date": 1610213464599
+    },
+    {
+      "type": "add",
+      "id": "65acaee5e19e3330",
+      "item": {
+        "type": "paragraph",
+        "id": "65acaee5e19e3330",
+        "text": "Page json with title, story and paragraph types."
+      },
+      "after": "9da0cbabbe812b99",
+      "date": 1610213466193
+    },
+    {
+      "type": "edit",
+      "id": "9da0cbabbe812b99",
+      "item": {
+        "type": "paragraph",
+        "id": "9da0cbabbe812b99",
+        "text": "A title phrase that you own."
+      },
+      "date": 1610213498502
+    },
+    {
+      "type": "add",
+      "id": "d09169c76aa61746",
+      "item": {
+        "type": "paragraph",
+        "id": "d09169c76aa61746",
+        "text": "Ponder the space between pages."
+      },
+      "after": "3cb37954f99b38fc",
+      "date": 1610217792772
+    },
+    {
+      "id": "d09169c76aa61746",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "65acaee5e19e3330",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "d09169c76aa61746",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "ee2f393464ed62c3",
+        "3271df9920f6fa89",
+        "a631791c0f17e021",
+        "afa3122107b863b8",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "3257008f6418ff46",
+        "98d537b5fbd31307",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "247bac39742fccbd",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d",
+        "9ad5cfabf58d7550",
+        "3d85c68607393927",
+        "40497933ce663c47",
+        "d38412b138a67301",
+        "ce8c8122c912fc70",
+        "0bf215fea4e0e42b",
+        "92bf7e67fe96432e",
+        "4fcffa0b7cd761aa",
+        "68a01207821b5da6",
+        "ea72dc74a4320a7f",
+        "e767225dd2971195",
+        "ef0662a0dc9514c4",
+        "1e4524dba737c4d1",
+        "05a5f133b3097a65",
+        "154b2f6d3acfac68"
+      ],
+      "date": 1610217794914
+    },
+    {
+      "type": "edit",
+      "id": "9da0cbabbe812b99",
+      "item": {
+        "type": "paragraph",
+        "id": "9da0cbabbe812b99",
+        "text": "► A title phrase that you own."
+      },
+      "date": 1610217828325
+    },
+    {
+      "type": "edit",
+      "id": "d09169c76aa61746",
+      "item": {
+        "type": "paragraph",
+        "id": "d09169c76aa61746",
+        "text": "► Ponder the space between pages."
+      },
+      "date": 1610217843293
+    },
+    {
+      "type": "edit",
+      "id": "9da0cbabbe812b99",
+      "item": {
+        "type": "paragraph",
+        "id": "9da0cbabbe812b99",
+        "text": "► Complete a phrase that you own."
+      },
+      "date": 1610217930407
+    },
+    {
+      "type": "add",
+      "id": "b981fd711ed13fc9",
+      "item": {
+        "type": "paragraph",
+        "id": "b981fd711ed13fc9",
+        "text": "Draw from metadata."
+      },
+      "after": "3271df9920f6fa89",
+      "date": 1610218000088
+    },
+    {
+      "id": "b981fd711ed13fc9",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "65acaee5e19e3330",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "d09169c76aa61746",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "ee2f393464ed62c3",
+        "b981fd711ed13fc9",
+        "3271df9920f6fa89",
+        "a631791c0f17e021",
+        "afa3122107b863b8",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "3257008f6418ff46",
+        "98d537b5fbd31307",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "247bac39742fccbd",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d",
+        "9ad5cfabf58d7550",
+        "3d85c68607393927",
+        "40497933ce663c47",
+        "d38412b138a67301",
+        "ce8c8122c912fc70",
+        "0bf215fea4e0e42b",
+        "92bf7e67fe96432e",
+        "4fcffa0b7cd761aa",
+        "68a01207821b5da6",
+        "ea72dc74a4320a7f",
+        "e767225dd2971195",
+        "ef0662a0dc9514c4",
+        "1e4524dba737c4d1",
+        "05a5f133b3097a65",
+        "154b2f6d3acfac68"
+      ],
+      "date": 1610218003445
+    },
+    {
+      "type": "edit",
+      "id": "b981fd711ed13fc9",
+      "item": {
+        "type": "paragraph",
+        "id": "b981fd711ed13fc9",
+        "text": "► Draw from metadata."
+      },
+      "date": 1610218017456
+    },
+    {
+      "type": "edit",
+      "id": "b981fd711ed13fc9",
+      "item": {
+        "type": "paragraph",
+        "id": "b981fd711ed13fc9",
+        "text": "► Draw from posibilities."
+      },
+      "date": 1610228104851
+    },
+    {
+      "type": "add",
+      "id": "86a826867a6c7d5b",
+      "item": {
+        "type": "paragraph",
+        "id": "86a826867a6c7d5b",
+        "text": "Items become adaptable units of familiar or exotic function."
+      },
+      "after": "be59e650626d7a4e",
+      "date": 1610476362160
+    },
+    {
+      "type": "edit",
+      "id": "86a826867a6c7d5b",
+      "item": {
+        "type": "paragraph",
+        "id": "86a826867a6c7d5b",
+        "text": "Items as adaptable units of familiar or exotic function."
+      },
+      "date": 1610476368908
+    },
+    {
+      "type": "edit",
+      "id": "86a826867a6c7d5b",
+      "item": {
+        "type": "paragraph",
+        "id": "86a826867a6c7d5b",
+        "text": "► Items as adaptable units of familiar or exotic function."
+      },
+      "date": 1610476375169
+    },
+    {
+      "id": "86a826867a6c7d5b",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "65acaee5e19e3330",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "d09169c76aa61746",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "ee2f393464ed62c3",
+        "b981fd711ed13fc9",
+        "3271df9920f6fa89",
+        "a631791c0f17e021",
+        "afa3122107b863b8",
+        "86a826867a6c7d5b",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "3257008f6418ff46",
+        "98d537b5fbd31307",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "247bac39742fccbd",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d",
+        "9ad5cfabf58d7550",
+        "3d85c68607393927",
+        "40497933ce663c47",
+        "d38412b138a67301",
+        "ce8c8122c912fc70",
+        "0bf215fea4e0e42b",
+        "92bf7e67fe96432e",
+        "4fcffa0b7cd761aa",
+        "68a01207821b5da6",
+        "ea72dc74a4320a7f",
+        "e767225dd2971195",
+        "ef0662a0dc9514c4",
+        "1e4524dba737c4d1",
+        "05a5f133b3097a65",
+        "154b2f6d3acfac68"
+      ],
+      "date": 1610476377866
+    },
+    {
+      "type": "edit",
+      "id": "b981fd711ed13fc9",
+      "item": {
+        "type": "paragraph",
+        "id": "b981fd711ed13fc9",
+        "text": "► Draw content from posibilities."
+      },
+      "date": 1610476398325
+    },
+    {
+      "type": "edit",
+      "id": "b981fd711ed13fc9",
+      "item": {
+        "type": "paragraph",
+        "id": "b981fd711ed13fc9",
+        "text": "► Draw content from possibilities."
+      },
+      "date": 1610476405916
+    },
+    {
+      "type": "edit",
+      "id": "86a826867a6c7d5b",
+      "item": {
+        "type": "paragraph",
+        "id": "86a826867a6c7d5b",
+        "text": "► Adaptable units of familiar or exotic function."
+      },
+      "date": 1610476485491
+    },
+    {
+      "type": "add",
+      "id": "05f4f92e76f86ce6",
+      "item": {
+        "type": "paragraph",
+        "id": "05f4f92e76f86ce6",
+        "text": "► Commons shaped by useful pages shared."
+      },
+      "after": "aecdc84c5cf9ff90",
+      "date": 1610476640567
+    },
+    {
+      "id": "05f4f92e76f86ce6",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "65acaee5e19e3330",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "d09169c76aa61746",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "ee2f393464ed62c3",
+        "b981fd711ed13fc9",
+        "3271df9920f6fa89",
+        "a631791c0f17e021",
+        "afa3122107b863b8",
+        "86a826867a6c7d5b",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "3257008f6418ff46",
+        "98d537b5fbd31307",
+        "05f4f92e76f86ce6",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "247bac39742fccbd",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d",
+        "9ad5cfabf58d7550",
+        "3d85c68607393927",
+        "40497933ce663c47",
+        "d38412b138a67301",
+        "ce8c8122c912fc70",
+        "0bf215fea4e0e42b",
+        "92bf7e67fe96432e",
+        "4fcffa0b7cd761aa",
+        "68a01207821b5da6",
+        "ea72dc74a4320a7f",
+        "e767225dd2971195",
+        "ef0662a0dc9514c4",
+        "1e4524dba737c4d1",
+        "05a5f133b3097a65",
+        "154b2f6d3acfac68"
+      ],
+      "date": 1610476643316
+    },
+    {
+      "type": "add",
+      "id": "f05383fe74999129",
+      "item": {
+        "type": "paragraph",
+        "id": "f05383fe74999129",
+        "text": "► Expose how and where a page came to be."
+      },
+      "after": "5b2b384a311a9110",
+      "date": 1610476769588
+    },
+    {
+      "id": "f05383fe74999129",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "65acaee5e19e3330",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "d09169c76aa61746",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "ee2f393464ed62c3",
+        "b981fd711ed13fc9",
+        "3271df9920f6fa89",
+        "a631791c0f17e021",
+        "afa3122107b863b8",
+        "86a826867a6c7d5b",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "3257008f6418ff46",
+        "98d537b5fbd31307",
+        "05f4f92e76f86ce6",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "247bac39742fccbd",
+        "f05383fe74999129",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d",
+        "9ad5cfabf58d7550",
+        "3d85c68607393927",
+        "40497933ce663c47",
+        "d38412b138a67301",
+        "ce8c8122c912fc70",
+        "0bf215fea4e0e42b",
+        "92bf7e67fe96432e",
+        "4fcffa0b7cd761aa",
+        "68a01207821b5da6",
+        "ea72dc74a4320a7f",
+        "e767225dd2971195",
+        "ef0662a0dc9514c4",
+        "1e4524dba737c4d1",
+        "05a5f133b3097a65",
+        "154b2f6d3acfac68"
+      ],
+      "date": 1610476772640
+    },
+    {
+      "type": "edit",
+      "id": "3d85c68607393927",
+      "item": {
+        "type": "paragraph",
+        "id": "3d85c68607393927",
+        "text": "Construct and maintain sitemaps for pages within a "
+      },
+      "date": 1610476875860
+    },
+    {
+      "type": "edit",
+      "id": "3d85c68607393927",
+      "item": {
+        "type": "paragraph",
+        "id": "3d85c68607393927",
+        "text": "Construct and maintain sitemaps for pages within a site."
+      },
+      "date": 1610476880074
+    },
+    {
+      "type": "add",
+      "id": "6ce4131d915b94b4",
+      "item": {
+        "type": "paragraph",
+        "id": "6ce4131d915b94b4",
+        "text": "► A sphere of influence grows as one explores."
+      },
+      "after": "3d85c68607393927",
+      "date": 1610476959029
+    },
+    {
+      "id": "6ce4131d915b94b4",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "65acaee5e19e3330",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "d09169c76aa61746",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "ee2f393464ed62c3",
+        "b981fd711ed13fc9",
+        "3271df9920f6fa89",
+        "a631791c0f17e021",
+        "afa3122107b863b8",
+        "86a826867a6c7d5b",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "3257008f6418ff46",
+        "98d537b5fbd31307",
+        "05f4f92e76f86ce6",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "247bac39742fccbd",
+        "f05383fe74999129",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d",
+        "9ad5cfabf58d7550",
+        "6ce4131d915b94b4",
+        "3d85c68607393927",
+        "40497933ce663c47",
+        "d38412b138a67301",
+        "ce8c8122c912fc70",
+        "0bf215fea4e0e42b",
+        "92bf7e67fe96432e",
+        "4fcffa0b7cd761aa",
+        "68a01207821b5da6",
+        "ea72dc74a4320a7f",
+        "e767225dd2971195",
+        "ef0662a0dc9514c4",
+        "1e4524dba737c4d1",
+        "05a5f133b3097a65",
+        "154b2f6d3acfac68"
+      ],
+      "date": 1610476963649
+    },
+    {
+      "type": "edit",
+      "id": "6ce4131d915b94b4",
+      "item": {
+        "type": "paragraph",
+        "id": "6ce4131d915b94b4",
+        "text": "► Sphere of influence shows as one explores."
+      },
+      "date": 1610476982771
+    },
+    {
+      "type": "edit",
+      "id": "6ce4131d915b94b4",
+      "item": {
+        "type": "paragraph",
+        "id": "6ce4131d915b94b4",
+        "text": "► Sphere of influences shows as one explores."
+      },
+      "date": 1610476995552
+    },
+    {
+      "type": "edit",
+      "id": "c99052c854f7940f",
+      "item": {
+        "type": "paragraph",
+        "id": "c99052c854f7940f",
+        "text": "We wish to implement and test wiki feature by feature where more mechanisms must be working correctly for newer features to work as intended. ► marks need met."
+      },
+      "date": 1610477040566
+    },
+    {
+      "type": "add",
+      "id": "5d074a0f17b3bc5f",
+      "item": {
+        "type": "paragraph",
+        "id": "5d074a0f17b3bc5f",
+        "text": "► Find pages by secondary associations e.g. terminology."
+      },
+      "after": "4fcffa0b7cd761aa",
+      "date": 1610477173163
+    },
+    {
+      "id": "5d074a0f17b3bc5f",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "65acaee5e19e3330",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "d09169c76aa61746",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "ee2f393464ed62c3",
+        "b981fd711ed13fc9",
+        "3271df9920f6fa89",
+        "a631791c0f17e021",
+        "afa3122107b863b8",
+        "86a826867a6c7d5b",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "3257008f6418ff46",
+        "98d537b5fbd31307",
+        "05f4f92e76f86ce6",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "247bac39742fccbd",
+        "f05383fe74999129",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d",
+        "9ad5cfabf58d7550",
+        "6ce4131d915b94b4",
+        "3d85c68607393927",
+        "40497933ce663c47",
+        "d38412b138a67301",
+        "ce8c8122c912fc70",
+        "0bf215fea4e0e42b",
+        "92bf7e67fe96432e",
+        "5d074a0f17b3bc5f",
+        "4fcffa0b7cd761aa",
+        "68a01207821b5da6",
+        "ea72dc74a4320a7f",
+        "e767225dd2971195",
+        "ef0662a0dc9514c4",
+        "1e4524dba737c4d1",
+        "05a5f133b3097a65",
+        "154b2f6d3acfac68"
+      ],
+      "date": 1610477177873
+    },
+    {
+      "type": "add",
+      "id": "43b07a0ac19718cb",
+      "item": {
+        "type": "paragraph",
+        "id": "43b07a0ac19718cb",
+        "text": "► Traverse primary associations forward and backward."
+      },
+      "after": "1e4524dba737c4d1",
+      "date": 1610477249385
+    },
+    {
+      "id": "43b07a0ac19718cb",
+      "type": "move",
+      "order": [
+        "c99052c854f7940f",
+        "656322157b08d1ee",
+        "d4084395c0fa324b",
+        "9da0cbabbe812b99",
+        "65acaee5e19e3330",
+        "15919f315afd3fab",
+        "3d3553b466f3051a",
+        "dbee98d6b099b735",
+        "ce735ff8161adca1",
+        "d09169c76aa61746",
+        "3cb37954f99b38fc",
+        "f5683b628b06b3e8",
+        "ee2f393464ed62c3",
+        "b981fd711ed13fc9",
+        "3271df9920f6fa89",
+        "a631791c0f17e021",
+        "afa3122107b863b8",
+        "86a826867a6c7d5b",
+        "be59e650626d7a4e",
+        "b1612f2557e9ddb8",
+        "a519c2b64a75bc7a",
+        "3257008f6418ff46",
+        "98d537b5fbd31307",
+        "05f4f92e76f86ce6",
+        "aecdc84c5cf9ff90",
+        "c425d61ed37d3827",
+        "fd9536a265deb061",
+        "4956be0fd37f5100",
+        "247bac39742fccbd",
+        "f05383fe74999129",
+        "5b2b384a311a9110",
+        "e6759feff19a9b6b",
+        "b788596ed4b3a6e7",
+        "e3a64483676a458d",
+        "9ad5cfabf58d7550",
+        "6ce4131d915b94b4",
+        "3d85c68607393927",
+        "40497933ce663c47",
+        "d38412b138a67301",
+        "ce8c8122c912fc70",
+        "0bf215fea4e0e42b",
+        "92bf7e67fe96432e",
+        "5d074a0f17b3bc5f",
+        "4fcffa0b7cd761aa",
+        "68a01207821b5da6",
+        "ea72dc74a4320a7f",
+        "e767225dd2971195",
+        "ef0662a0dc9514c4",
+        "43b07a0ac19718cb",
+        "1e4524dba737c4d1",
+        "05a5f133b3097a65",
+        "154b2f6d3acfac68"
+      ],
+      "date": 1610477251742
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "title": "Experimental Assets",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "df45e6d058d12c9d",
+      "text": "We consider how the management of panels in a lineup can be abstracted from the view such that they are more easily tested and applied in novel ways. [https://github.com/WardCunningham/assets/tree/master/pages/experimental-assets github]"
+    },
+    {
+      "type": "paragraph",
+      "id": "e1c4a9ab33f7b3fb",
+      "text": "Browse node servers with modular client. [http://small.fed.wiki/assets/exp/node.html?#/fed.wiki.org/welcome-visitors site]"
+    },
+    {
+      "type": "assets",
+      "id": "f735082bc00bbaef",
+      "text": "exp"
+    },
+    {
+      "type": "paragraph",
+      "id": "35274e5fe4245f67",
+      "text": "We wish to implement and test wiki feature by feature where more mechanisms must be working correctly for newer features to work as intended."
+    },
+    {
+      "type": "paragraph",
+      "id": "112cc976f56bd877",
+      "text": "See [[Hierarchy of Mechanism]]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Experimental Assets",
+        "story": []
+      },
+      "date": 1609626202220
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "df45e6d058d12c9d"
+      },
+      "id": "df45e6d058d12c9d",
+      "type": "add",
+      "date": 1609626205397
+    },
+    {
+      "type": "edit",
+      "id": "df45e6d058d12c9d",
+      "item": {
+        "type": "paragraph",
+        "id": "df45e6d058d12c9d",
+        "text": "We consider how the management of panels in a lineup can be abstracted from the view such that they are more easily tested and applied in novel ways."
+      },
+      "date": 1609626272171
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "f735082bc00bbaef"
+      },
+      "id": "f735082bc00bbaef",
+      "type": "add",
+      "after": "df45e6d058d12c9d",
+      "date": 1609651470687
+    },
+    {
+      "type": "edit",
+      "id": "f735082bc00bbaef",
+      "item": {
+        "type": "assets",
+        "id": "f735082bc00bbaef",
+        "text": "exp"
+      },
+      "date": 1609651491045
+    },
+    {
+      "type": "edit",
+      "id": "df45e6d058d12c9d",
+      "item": {
+        "type": "paragraph",
+        "id": "df45e6d058d12c9d",
+        "text": "We consider how the management of panels in a lineup can be abstracted from the view such that they are more easily tested and applied in novel ways. [https://github.com/WardCunningham/assets/tree/master/pages/experimental-assets github]"
+      },
+      "date": 1609717844493
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "35274e5fe4245f67"
+      },
+      "id": "35274e5fe4245f67",
+      "type": "add",
+      "after": "f735082bc00bbaef",
+      "date": 1610128399666
+    },
+    {
+      "type": "edit",
+      "id": "35274e5fe4245f67",
+      "item": {
+        "type": "paragraph",
+        "id": "35274e5fe4245f67",
+        "text": "We wish to implement and test wiki feature by feature where more mechanisms must be working correctly for newer features to work as intended."
+      },
+      "date": 1610128641520
+    },
+    {
+      "type": "add",
+      "id": "112cc976f56bd877",
+      "item": {
+        "type": "paragraph",
+        "id": "112cc976f56bd877",
+        "text": "See [[Hierarchy of Mechanism]]"
+      },
+      "after": "35274e5fe4245f67",
+      "date": 1610128664403
+    },
+    {
+      "type": "add",
+      "id": "e1c4a9ab33f7b3fb",
+      "item": {
+        "type": "paragraph",
+        "id": "e1c4a9ab33f7b3fb",
+        "text": "Browse node servers with modular client. [http://small.fed.wiki/assets/exp/node.html?#/fed.wiki.org/welcome-visitors site]"
+      },
+      "after": "df45e6d058d12c9d",
+      "date": 1610150026330
+    }
+  ]
+}

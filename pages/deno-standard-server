@@ -1,0 +1,114 @@
+{
+  "title": "Deno Standard Server",
+  "story": [
+    {
+      "type": "paragraph",
+      "id": "97339a960fbbc678",
+      "text": "We're extending the more elementary server.ts module, not the file_server.ts that builds upon it. [https://deno.land/std/http std/http]"
+    },
+    {
+      "type": "paragraph",
+      "id": "36e2bb9127239fcb",
+      "text": "With just a few lines of code you can run your own http web server with control over the response status, request headers and more. [https://deno.land/manual/examples/http_server manual]"
+    }
+  ],
+  "journal": [
+    {
+      "type": "create",
+      "item": {
+        "title": "Deno Standard Server",
+        "story": []
+      },
+      "date": 1608955378402
+    },
+    {
+      "item": {
+        "type": "factory",
+        "id": "36e2bb9127239fcb"
+      },
+      "id": "36e2bb9127239fcb",
+      "type": "add",
+      "date": 1608955380717
+    },
+    {
+      "type": "edit",
+      "id": "36e2bb9127239fcb",
+      "item": {
+        "type": "paragraph",
+        "id": "36e2bb9127239fcb",
+        "text": "With just a few lines of code you can run your own http web server with control over the response status, request headers and more."
+      },
+      "date": 1608955386222
+    },
+    {
+      "type": "edit",
+      "id": "36e2bb9127239fcb",
+      "item": {
+        "type": "paragraph",
+        "id": "36e2bb9127239fcb",
+        "text": "With just a few lines of code you can run your own http web server with control over the response status, request headers and more. [https://deno.land/manual/examples/http_server manual]"
+      },
+      "date": 1608955437251
+    },
+    {
+      "type": "add",
+      "id": "97339a960fbbc678",
+      "item": {
+        "type": "paragraph",
+        "id": "97339a960fbbc678",
+        "text": "A small program for serving local files over HTTP."
+      },
+      "after": "36e2bb9127239fcb",
+      "date": 1608955473461
+    },
+    {
+      "type": "edit",
+      "id": "97339a960fbbc678",
+      "item": {
+        "type": "paragraph",
+        "id": "97339a960fbbc678",
+        "text": "A small program for serving local files over HTTP. [https://deno.land/std/http deno]"
+      },
+      "date": 1608955526736
+    },
+    {
+      "type": "edit",
+      "id": "97339a960fbbc678",
+      "item": {
+        "type": "paragraph",
+        "id": "97339a960fbbc678",
+        "text": "A small program for serving local files. [https://deno.land/std/http deno]"
+      },
+      "date": 1608955540068
+    },
+    {
+      "id": "97339a960fbbc678",
+      "type": "move",
+      "order": [
+        "97339a960fbbc678",
+        "36e2bb9127239fcb"
+      ],
+      "date": 1608955542713
+    },
+    {
+      "type": "edit",
+      "id": "97339a960fbbc678",
+      "item": {
+        "type": "paragraph",
+        "id": "97339a960fbbc678",
+        "text": "A small program for serving local files over http. [https://deno.land/std/http deno]"
+      },
+      "date": 1608955655402
+    },
+    {
+      "type": "edit",
+      "id": "97339a960fbbc678",
+      "item": {
+        "type": "paragraph",
+        "id": "97339a960fbbc678",
+        "text": "We're extending the more elementary server.ts module, not the file_server.ts that builds upon it. [https://deno.land/std/http std/http]"
+      },
+      "date": 1609010634538
+    }
+  ]
+}
